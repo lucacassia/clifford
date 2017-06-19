@@ -10,7 +10,8 @@ The script requires the scala intepreter.
     pacman -S scala
 
 ## Example
-./clifford.sh 3 1
+
+    ./clifford.sh 3 1
 
 ## Acknowledgements
 The code here contained was developed in collaboration with Carlo Sana.
