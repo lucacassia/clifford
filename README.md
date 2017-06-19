@@ -6,7 +6,8 @@ A simple command-line tool for computing the real clifford algebras in signature
 The script requires the scala intepreter.
 
 **Arch Linux**
-    pacman -S freeglut glew
+
+    pacman -S scala
 
 ## Example
 ./clifford.sh 3 1
