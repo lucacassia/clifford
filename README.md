@@ -1,3 +1,15 @@
-# Clifford Algebras
+# Clifford
 
-A simple command-line tool for computing the real clifford algebras in signature (s,t) as matrix algebras over the normed division algebras \u211D, \u2102, \u210D.
+A simple command-line tool for computing the real clifford algebras in signature (s,t) as matrix algebras over the normed division algebras ℝ, ℂ, ℍ.
+
+## Dependencies
+The script requires the scala intepreter.
+
+**Arch Linux**
+    pacman -S freeglut glew
+
+## Example
+./clifford.sh 3 1
+
+## Acknowledgements
+The code here contained was developed in collaboration with Carlo Sana.
