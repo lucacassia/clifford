@@ -119,5 +119,3 @@ object Clifford extends App{
 
 }
 
-
-Clifford.main(args)
