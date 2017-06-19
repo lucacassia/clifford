@@ -46,7 +46,7 @@ case class DirectSum(left : Algebra, right : Algebra) extends Algebra {
 // BODY
 
 
-object Clifford {
+object Main extends App{
 
 
   def reduceProduct(product : TensorProduct) : Algebra = {
@@ -110,9 +110,8 @@ object Clifford {
      throw new IllegalStateException("PORCO DIO TUTTO ZERO O NEGATIVO!")
   }
 
-  def main(args: Array[String]) {
-    ClEven(6,6)
-  }
+
+  ClEven(6,6)
 
 
 }
