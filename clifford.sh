@@ -1,4 +1,6 @@
-#!/usr/bin/env scala
+#!/bin/sh
+exec scala "$0" "$@"
+!#
 
 
 import scala.language.postfixOps
@@ -114,7 +116,7 @@ object Clifford extends App{
   }
 
 
-  println(ClEven(6,6))
+  println(ClEven(args(0).toInt,args(1).toInt))
 
 
 }

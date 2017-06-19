@@ -111,7 +111,7 @@ object Clifford extends App{
   }
 
 
-  println(ClEven(6,6))
+  println(ClEven(args(0).toInt,args(1).toInt))
 
 
 }
