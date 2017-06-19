@@ -1,3 +1,6 @@
+#!/usr/bin/env scala
+
+
 import scala.language.postfixOps
 
 
@@ -115,3 +118,6 @@ object Clifford extends App{
 
 
 }
+
+
+Clifford.main(args)
