@@ -31,19 +31,14 @@ case class SplitComplex(baseDimension: Int) extends Algebra {
 
 
 case class TensorProduct(left : Algebra, right : Algebra) extends Algebra {
-
   override def toString: String = s"${left.toString}\u2297${right.toString}"
-
   val baseDimension: Int = left.baseDimension * right.baseDimension
-
   override def withNewDimension(n: Int) = throw new IllegalStateException("PORCODDDUEEE")
 }
 
 case class DirectSum(left : Algebra, right : Algebra) extends Algebra {
   override def toString: String = s"${left.toString}\u2295${right.toString}"
-
   override def baseDimension: Int = left.baseDimension + right.baseDimension
-
   override def withNewDimension(n: Int): Algebra = throw new IllegalStateException("PORCODDDUEEE")
 }
 
