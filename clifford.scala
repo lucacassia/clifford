@@ -107,9 +107,9 @@ object Clifford {
 
 
   def ClEven(s : Int, t : Int) : Algebra = {
-    if (s > 0 )
+    if (s > 0)
       Cl(s-1,t)
-    else if (t > 0 )
+    else if (t > 0)
       Cl(t-1,s)
     else
      throw new IllegalStateException("PORCO DIO TUTTO ZERO O NEGATIVO!")
