@@ -13,5 +13,9 @@ The script requires the scala intepreter.
 
     ./clifford.sh 3 1
 
+or
+
+    scala clifford.scala 3 1 
+
 ## Acknowledgements
 The code here contained was developed in collaboration with Carlo Sana.
