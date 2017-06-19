@@ -111,7 +111,7 @@ object Main extends App{
   }
 
 
-  ClEven(6,6)
+  println(ClEven(6,6))
 
 
 }
