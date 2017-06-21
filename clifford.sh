@@ -55,7 +55,7 @@ object Clifford extends App{
 
 
   def reduceProduct(product : TensorProduct) : Algebra = {
-    println(s"reducing $product")
+//    println(s"reducing $product")
     (product.left,product.right) match {
       case (other, prod : TensorProduct) =>
         reduceProduct(TensorProduct(other,reduceProduct(prod)))
@@ -116,7 +116,7 @@ object Clifford extends App{
   }
 
 
-  println(ClEven(args(0).toInt,args(1).toInt))
+  println(Cl(args(0).toInt,args(1).toInt))
 
 
 }
