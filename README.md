@@ -18,4 +18,4 @@ or
     scala clifford.scala 3 1 
 
 ## Acknowledgements
-The code here contained was developed in collaboration with Carlo Sana.
+This code was developed in collaboration with Carlo Sana.
