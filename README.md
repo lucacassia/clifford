@@ -3,7 +3,7 @@
 A simple command-line tool for computing the real clifford algebras in signature (s,t) as matrix algebras over the normed division algebras ℝ, ℂ, ℍ.
 
 ## Dependencies
-The script requires the python/scala intepreter.
+The script requires the `python` and/or `scala` intepreters.
 
 **Arch Linux**
 
