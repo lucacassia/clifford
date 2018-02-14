@@ -3,15 +3,15 @@
 A simple command-line tool for computing the real clifford algebras in signature (s,t) as matrix algebras over the normed division algebras ℝ, ℂ, ℍ.
 
 ## Dependencies
-The script requires the scala intepreter.
+The script requires the python/scala intepreter.
 
 **Arch Linux**
 
-    pacman -S scala
+    pacman -S python scala
 
 ## Example
 
-    ./clifford.sh 3 1
+    python clifford.py 3 1
 
 or
 
