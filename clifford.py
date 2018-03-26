@@ -53,4 +53,4 @@ cl = clifford(int(sys.argv[1]),int(sys.argv[2]))
 result = k = cl[0]+"(%d)"%cl[1]
 for i in range(cl[2]-1):
 	result = result+"\u2295"+k
-print(result)
+print("Cl("+sys.argv[1]+","+sys.argv[2]+") = "+result)
