@@ -17,5 +17,5 @@ or
 
     scala clifford.scala 3 1 
 
-## Acknowledgements
+## Acknowledgments
 This code was developed in collaboration with Carlo Sana.
