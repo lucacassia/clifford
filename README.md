@@ -4,25 +4,27 @@ A simple command-line tool for computing the real clifford algebras in signature
 
 ## Usage
 
+With python
+
     python clifford.py 3 1
 
-or
+or scala
 
     scala clifford.scala 3 1
 
-or
+or golang
 
     go run clifford.go 3 1
 
-or
+or rust
 
     cargo build --release
     ./target/release/clifford 3 1
 
-or
+or lean
 
     lake build
-    lake run clifford 3 1
+    lake exe clifford 3 1
 
 ## Acknowledgments
 This code was developed in collaboration with Carlo Sana.
